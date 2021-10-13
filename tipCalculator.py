@@ -1,0 +1,11 @@
+total_bill = input("what is the total bill? \n")
+total_bill=float(total_bill)
+print(total_bill)
+total_person = input("How many total persons are there? \n")
+total_tip = input("How much tip? \n")
+total_tip = float(total_tip)
+total_person = int(total_person)
+per_person_bill = (total_bill)/(total_person)
+per_person_tip = per_person_bill*(total_tip/100)
+split_bill = per_person_bill+per_person_tip
+print(split_bill)
